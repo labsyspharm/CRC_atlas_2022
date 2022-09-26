@@ -14,7 +14,7 @@ Jia-Ren Lin1,2,*, Shu Wang1,2,3,*, Shannon Coy1,2,4,*, Yu-An Chen1,2, Clarence Y
 **6**Epithelial Biology Center and Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, TN, 37232, USA.
 **7**Department of Systems Biology, Harvard Medical School, Boston, MA, 02115, USA.
 
-<img src="./docs/sardana_fig1a.png" style="max-width:700px;width:100%" >
+<img src="./docs/SARDANA_fig1a.png" style="max-width:700px;width:100%" >
 
 ## SUMMARY
 Advanced solid cancers are complex assemblies of tumor, immune, and stromal cells characterized by high intratumoral variation. We use highly multiplexed tissue imaging, 3D reconstruction, spatial statistics, and machine learning to identify cell types and states underlying morphological features of known diagnostic and prognostic significance in colorectal cancer. Quantitation of these features in high-plex marker space reveals recurrent transitions from one tumor morphology to the next, some of which are coincident with long-range gradients in the expression of oncogenes and epigenetic regulators. At the tumor invasive margin, where tumor, normal, and immune cells compete, T-cell suppression involves multiple cell types and 3D imaging shows that seemingly localized 2D features such as tertiary lymphoid structures are commonly interconnected and have graded molecular properties. Thus, while cancer genetics emphasizes the importance of discrete changes in tumor state, whole-specimen imaging reveals large-scale morphological and molecular gradients analogous to those in developing tissues.
