@@ -2,20 +2,21 @@
 # Multiplexed 3D atlas of state transitions and immune interactions in colorectal cancer 
 <br>
 Jia-Ren Lin1,2,*, Shu Wang1,2,3,*, Shannon Coy1,2,4,*, Yu-An Chen1,2, Clarence Yapp1,2, Madison Tyler1,2, Maulik K. Nariya1,2,7, Cody N. Heiser1,5, Ken S. Lau1,6, Sandro Santagata1,2,4,7,†, and Peter K. Sorger1,2,7,#,†
-<br>
+
 *These (first) authors contributed equally<br>
 †These (senior) authors contributed equally<br>
+
+**1** Human Tumor Atlas Network<br>
+**2** Ludwig Center at Harvard and Laboratory of Systems Pharmacology, Harvard Medical School, Boston, MA, 02115, USA.<br>
+**3** Harvard Graduate Program in Biophysics, Harvard University, Cambridge, MA, 02138, USA.<br>
+**4** Department of Pathology, Brigham and Women’s Hospital, Harvard Medical School, Boston, MA 02115, USA.<br>
+**5** Program in Chemical & Physical Biology, Vanderbilt University School of Medicine, Nashville, TN, 37232, USA.<br>
+**6** Epithelial Biology Center and Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, TN, 37232, USA.<br>
+**7** Department of Systems Biology, Harvard Medical School, Boston, MA, 02115, USA.<br>
 <br>
-**1**Human Tumor Atlas Network<br>
-**2**Ludwig Center at Harvard and Laboratory of Systems Pharmacology, Harvard Medical School, Boston, MA, 02115, USA.<br>
-**3**Harvard Graduate Program in Biophysics, Harvard University, Cambridge, MA, 02138, USA.<br>
-**4**Department of Pathology, Brigham and Women’s Hospital, Harvard Medical School, Boston, MA 02115, USA.<br>
-**5**Program in Chemical & Physical Biology, Vanderbilt University School of Medicine, Nashville, TN, 37232, USA.<br>
-**6**Epithelial Biology Center and Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, TN, 37232, USA.<br>
-**7**Department of Systems Biology, Harvard Medical School, Boston, MA, 02115, USA.<br>
+<img src="./docs/SARDANA_fig1a.png" style="max-width:700px;width:100%">
 <br>
-<img src="./docs/SARDANA_fig1a.png" style="max-width:700px;width:100%" >
-<br>
+
 ## SUMMARY
 Advanced solid cancers are complex assemblies of tumor, immune, and stromal cells characterized by high intratumoral variation. We use highly multiplexed tissue imaging, 3D reconstruction, spatial statistics, and machine learning to identify cell types and states underlying morphological features of known diagnostic and prognostic significance in colorectal cancer. Quantitation of these features in high-plex marker space reveals recurrent transitions from one tumor morphology to the next, some of which are coincident with long-range gradients in the expression of oncogenes and epigenetic regulators. At the tumor invasive margin, where tumor, normal, and immune cells compete, T-cell suppression involves multiple cell types and 3D imaging shows that seemingly localized 2D features such as tertiary lymphoid structures are commonly interconnected and have graded molecular properties. Thus, while cancer genetics emphasizes the importance of discrete changes in tumor state, whole-specimen imaging reveals large-scale morphological and molecular gradients analogous to those in developing tissues.
 <br>
