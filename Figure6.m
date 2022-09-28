@@ -136,4 +136,84 @@ box off;
 set(gca,'XColor', 'none','YColor','none')
 set(gcf,'color','w');
 
-                                
+
+
+%% 3D view of block 7, with boundary lines  ==> Fig6G
+
+data3 = allTLS(allTLS.label1 ==7,:);
+
+figure('units','normalized','outerposition',[0.5 0 0.5 1]);
+scatter3(data3.Xtt,data3.Ytt,data3.Ztt,5,data3.idx1,'fill');
+set(gca,'XAxisLocation','bottom','YAxisLocation','left','ydir','reverse');
+
+hold on;
+colormap(jet(7));
+daspect([1 1 0.15]);
+%colorbar;
+set(gcf,'color','w');
+
+zlim([0 600]);
+ylim([10500 15500]);
+xlim([5500 13500]);
+view(-16,28);
+
+temp1 = tabulate(data3.slice);
+temp1 = temp1(temp1(:,2)>0,:);
+for i = 1:size(temp1,1)
+    slice = temp1(i,1);
+    data4 = data3(data3.slice == slice,:);
+    temp2 = tabulate(data4.TLS);
+    temp2 = temp2(temp2(:,2)>0,:);
+    for j = 1:size(temp2,1)
+        TLS = temp2(j,1);
+        data5 = data4(data4.TLS == TLS,:);
+        k = boundary(data5.Xtt,data5.Ytt);
+        %plot3(data5.Xtt(k),data5.Ytt(k),repmat(data5.Ztt(1),length(k),1),'k','LineWidth',1.5);
+        scatter3(data5.Xtt(k),data5.Ytt(k),repmat(data5.Ztt(1),length(k),1),5,'k','fill');
+        plot3(data5.Xtt(k),data5.Ytt(k),repmat(data5.Ztt(1),length(k),1),'k','LineWidth',1.5);
+    end
+end
+
+
+%% 3D view of block 7, Shu's PCA version ==> Fig6H
+
+data3 = allTLS(allTLS.label1 ==7,:);
+temp1 = sumAllTLS4(:,{'slice','TLS','PCA1','PCA2','PCA3'});
+data3 = join(data3,temp1,'keys',{'slice','TLS'});
+
+% --------------
+figure('units','normalized','outerposition',[0.5 0 0.5 1]);
+scatter3(data3.Xtt,data3.Ytt,data3.Ztt,3,data3.PCA1,'fill');
+set(gca,'XAxisLocation','bottom','YAxisLocation','left','ydir','reverse');
+
+colormap(cool);
+daspect([1 1 0.15]);
+%colorbar;
+set(gcf,'color','w');
+title('Color by PC1');
+caxis([-3 3]);
+colorbar;
+
+zlim([0 600]);
+ylim([10500 15000]);
+xlim([5500 14000]);
+view(-16,28);
+
+% ----------------
+figure('units','normalized','outerposition',[0.5 0 0.5 1]);
+scatter3(data3.Xtt,data3.Ytt,data3.Ztt,3,data3.PCA2,'fill');
+set(gca,'XAxisLocation','bottom','YAxisLocation','left','ydir','reverse');
+
+colormap(cool);
+daspect([1 1 0.15]);
+%colorbar;
+set(gcf,'color','w');
+title('Color by PC2');
+caxis([-2.5 2.5]);
+colorbar;
+
+zlim([0 600]);
+ylim([10500 15000]);
+xlim([5500 14000]);
+view(-16,28);
+
