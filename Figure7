@@ -1,0 +1,18 @@
+
+
+
+%% Single marker comparison (only PD-L1+ pair)==> Fig7I
+
+figure('units','normalized','outerposition',[0.5 0.5 0.25 0.5]);
+
+name1 = 'CD68';
+
+marker1  = strcat('mean_',name1,'p');
+
+list1 = sumPDL1i{:,marker1};
+list2 = sumPDL1ni{:,marker1};
+myviolin2(list1*100,list2*100,'Int.','non-int.',true);
+ytickformat('percentage');
+hold on;
+%line([1,2],[list1(5)*100,list2(5)*100],'Color','r','LineWidth',2);
+title(strcat(name1,'+'),'Interpreter','none');
