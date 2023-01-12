@@ -23,9 +23,11 @@ Advanced solid cancers are complex assemblies of tumor, immune, and stromal cell
 ## DATA AVAILABILITY AND ATLAS IMAGE VIEWING
 As part of this paper all images at full resolution, all derived image data (e.g., segmentation masks) and all cell count tables have been released via the NCI-sponsored repository for Human Tumor Atlas Network (HTAN; https://htan-portal-nextjs.vercel.app/). Because the public resource is still undergoing extensive development, an additional version of the numerical data is also available at https://www.synapse.org/#!Synapse:syn18434611/wiki/597418. Several of the figure panels in this paper are available with text and audio narration for anonymous on-line browsing using MINERVA software (Rashid et al., 2022), which supports zoom, pan, and selection actions without requiring the installation of software. A Minerva story with an overview of CRC1 (sections 096 and 097) can be found at: cycif.org/crc1-intro and the 25 CRC1 Z-sections can be found at: cycif.org/crc1-3d. The third Minerva story focused on data integration for CRC1 can be found at: https://www.cycif.org/data/lin-wang-coy-2021/viz.html. Other resources, including images of CRC2-17, for this paper can be found at https://www.tissue-atlas.org/atlas-datasets/lin-wang-coy-2021/. We will make all of these MINERVA stories available directly via the published version of this paper; we are currently securing DOIs for these stories to provide a more uniform name space.<br>
 
+## ACCESS FULL DATASET
+
 **IMPORTANT!** Please review the [overall summary and guidance](syn18434611/wiki/602862) for this dataset before continuing!
 
-The full 2.3 TB dataset with all 47 images is available through Amazon Web Services S3 using a "requester pays" model. This means each center will be responsible for paying the $0.10/GB transfer charges for downloading all or part of the data from AWS to a location of their choice. Each center shall nominate one person with access to a center-funded AWS account, or if none exists then they must create an account. This person will manage all data downloads for their center to avoid duplicate downloads and extra charges. Do not use a personal account, as the costs incurred may be significant. The nominated person must email Madison_Tyler@hms.harvard.edu with the AWS account’s **AWS account ID** and **canonical user ID** which may be found as detailed here: https://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html#FindingYourAccountIdentifiers. We must receive **both** the  account ID and canonical user ID in order to grant access to the S3 bucket containing the full dataset. After access is granted the images and metadata will be available in the bucket at the following locations: 
+The full 2.3 TB dataset with all 47 images is available through Amazon Web Services S3 using a "requester pays" model. This means each center will be responsible for paying the $0.10/GB transfer charges for downloading all or part of the data from AWS to a location of their choice. Each center shall nominate one person with access to a center-funded AWS account, or if none exists then they must create an account. This person will manage all data downloads for their center to avoid duplicate downloads and extra charges. Do not use a personal account, as the costs incurred may be significant. The nominated person must email Yu-An_Chen@hms.harvard.edu with the AWS account’s **AWS account ID** and **canonical user ID** which may be found as detailed here: https://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html#FindingYourAccountIdentifiers. We must receive **both** the  account ID and canonical user ID in order to grant access to the S3 bucket containing the full dataset. After access is granted the images and metadata will be available in the bucket at the following locations: 
 
 ```text
 s3://htan-tnp-sardana-hms-prerelease/phase-1/data/
@@ -37,6 +39,56 @@ To browse and download the data use either a graphical file transfer application
 The HMS center will commit to making the full dataset available through S3 through at least December 31, 2020. By that time we expect the DCC will be able to take over hosting of the data. 
 
 The following table contains summary biospecimen and file metadata for all 47 sections. Note there is more than one page - use the Next button to see more rows.
+
+|Section|Internal_Biospecimen_ID|Method |Thickness (Î¼m)|Size (GB)|Image Filename      |Metadata Filename        |
+|-------|-----------------------|-------|---------------|---------|--------------------|-------------------------|
+|1      |WD-76845-001           |H&E    |5              |12.2     |WD-76845-001.ome.tif|WD-76845-001-metadata.csv|
+|2      |WD-76845-002           |t-CyCIF|5              |88       |WD-76845-002.ome.tif|WD-76845-002-metadata.csv|
+|6      |WD-76845-006           |H&E    |5              |11       |WD-76845-006.ome.tif|WD-76845-006-metadata.csv|
+|7      |WD-76845-007           |t-CyCIF|5              |80.2     |WD-76845-007.ome.tif|WD-76845-007-metadata.csv|
+|13     |WD-76845-013           |H&E    |5              |11.9     |WD-76845-013.ome.tif|WD-76845-013-metadata.csv|
+|14     |WD-76845-014           |t-CyCIF|5              |72.4     |WD-76845-014.ome.tif|WD-76845-014-metadata.csv|
+|19     |WD-76845-019           |H&E    |5              |12.7     |WD-76845-019.ome.tif|WD-76845-019-metadata.csv|
+|20     |WD-76845-020           |t-CyCIF|5              |83.6     |WD-76845-020.ome.tif|WD-76845-020-metadata.csv|
+|24     |WD-76845-024           |H&E    |5              |11       |WD-76845-024.ome.tif|WD-76845-024-metadata.csv|
+|25     |WD-76845-025           |t-CyCIF|5              |83.6     |WD-76845-025.ome.tif|WD-76845-025-metadata.csv|
+|28     |WD-76845-028           |H&E    |5              |10.1     |WD-76845-028.ome.tif|WD-76845-028-metadata.csv|
+|29     |WD-76845-029           |t-CyCIF|5              |74.4     |WD-76845-029.ome.tif|WD-76845-029-metadata.csv|
+|33     |WD-76845-033           |H&E    |5              |11.8     |WD-76845-033.ome.tif|WD-76845-033-metadata.csv|
+|34     |WD-76845-034           |t-CyCIF|5              |82.2     |WD-76845-034.ome.tif|WD-76845-034-metadata.csv|
+|38     |WD-76845-038           |H&E    |5              |11.3     |WD-76845-038.ome.tif|WD-76845-038-metadata.csv|
+|39     |WD-76845-039           |t-CyCIF|5              |80.2     |WD-76845-039.ome.tif|WD-76845-039-metadata.csv|
+|43     |WD-76845-043           |H&E    |5              |11       |WD-76845-043.ome.tif|WD-76845-043-metadata.csv|
+|44     |WD-76845-044           |t-CyCIF|5              |76.6     |WD-76845-044.ome.tif|WD-76845-044-metadata.csv|
+|48     |WD-76845-048           |H&E    |5              |11.2     |WD-76845-048.ome.tif|WD-76845-048-metadata.csv|
+|49     |WD-76845-049           |t-CyCIF|5              |76.6     |WD-76845-049.ome.tif|WD-76845-049-metadata.csv|
+|50     |WD-76845-050           |t-CyCIF|5              |80.2     |WD-76845-050.ome.tif|WD-76845-050-metadata.csv|
+|51     |WD-76845-051           |t-CyCIF|5              |76.6     |WD-76845-051.ome.tif|WD-76845-051-metadata.csv|
+|52     |WD-76845-052           |t-CyCIF|5              |80.2     |WD-76845-052.ome.tif|WD-76845-052-metadata.csv|
+|53     |WD-76845-053           |H&E    |5              |10.5     |WD-76845-053.ome.tif|WD-76845-053-metadata.csv|
+|54     |WD-76845-054           |t-CyCIF|5              |74.5     |WD-76845-054.ome.tif|WD-76845-054-metadata.csv|
+|58     |WD-76845-058           |H&E    |5              |10.5     |WD-76845-058.ome.tif|WD-76845-058-metadata.csv|
+|59     |WD-76845-059           |t-CyCIF|5              |80.2     |WD-76845-059.ome.tif|WD-76845-059-metadata.csv|
+|63     |WD-76845-063           |H&E    |5              |10.5     |WD-76845-063.ome.tif|WD-76845-063-metadata.csv|
+|64     |WD-76845-064           |t-CyCIF|5              |74.4     |WD-76845-064.ome.tif|WD-76845-064-metadata.csv|
+|68     |WD-76845-068           |H&E    |5              |10.1     |WD-76845-068.ome.tif|WD-76845-068-metadata.csv|
+|69     |WD-76845-069           |t-CyCIF|5              |69.5     |WD-76845-069.ome.tif|WD-76845-069-metadata.csv|
+|73     |WD-76845-073           |H&E    |5              |9.1      |WD-76845-073.ome.tif|WD-76845-073-metadata.csv|
+|74     |WD-76845-074           |t-CyCIF|5              |69.5     |WD-76845-074.ome.tif|WD-76845-074-metadata.csv|
+|77     |WD-76845-077           |H&E    |5              |10.5     |WD-76845-077.ome.tif|WD-76845-077-metadata.csv|
+|78     |WD-76845-078           |t-CyCIF|5              |69.5     |WD-76845-078.ome.tif|WD-76845-078-metadata.csv|
+|83     |WD-76845-083           |H&E    |5              |9.6      |WD-76845-083.ome.tif|WD-76845-083-metadata.csv|
+|84     |WD-76845-084           |t-CyCIF|5              |69.5     |WD-76845-084.ome.tif|WD-76845-084-metadata.csv|
+|85     |WD-76845-085           |H&E    |4              |10.6     |WD-76845-085.ome.tif|WD-76845-085-metadata.csv|
+|86     |WD-76845-086           |t-CyCIF|4              |72.4     |WD-76845-086.ome.tif|WD-76845-086-metadata.csv|
+|90     |WD-76845-090           |H&E    |4              |9.9      |WD-76845-090.ome.tif|WD-76845-090-metadata.csv|
+|91     |WD-76845-091           |t-CyCIF|4              |72.4     |WD-76845-091.ome.tif|WD-76845-091-metadata.csv|
+|96     |WD-76845-096           |H&E    |4              |10.6     |WD-76845-096.ome.tif|WD-76845-096-metadata.csv|
+|97     |WD-76845-097           |t-CyCIF|4              |74.5     |WD-76845-097.ome.tif|WD-76845-097-metadata.csv|
+|101    |WD-76845-101           |H&E    |4              |10.5     |WD-76845-101.ome.tif|WD-76845-101-metadata.csv|
+|102    |WD-76845-102           |t-CyCIF|4              |72.4     |WD-76845-102.ome.tif|WD-76845-102-metadata.csv|
+|105    |WD-76845-105           |H&E    |4              |9.6      |WD-76845-105.ome.tif|WD-76845-105-metadata.csv|
+|106    |WD-76845-106           |t-CyCIF|4              |69.5     |WD-76845-106.ome.tif|WD-76845-106-metadata.csv|
 
 
 ## Funding
