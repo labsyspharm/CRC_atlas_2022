@@ -25,7 +25,7 @@ As part of this paper all images at full resolution, all derived image data (e.g
 
 ## ACCESS FULL DATASET
 
-**IMPORTANT!** Please review the [overall summary and guidance](syn18434611/wiki/602862) for this dataset before continuing!
+**IMPORTANT!** Please review the [overall summary and guidance] for this dataset before continuing!
 
 The full 2.3 TB dataset with all 47 images is available through Amazon Web Services S3 using a "requester pays" model. This means each center will be responsible for paying the $0.10/GB transfer charges for downloading all or part of the data from AWS to a location of their choice. Each center shall nominate one person with access to a center-funded AWS account, or if none exists then they must create an account. This person will manage all data downloads for their center to avoid duplicate downloads and extra charges. Do not use a personal account, as the costs incurred may be significant. The nominated person must email Yu-An_Chen@hms.harvard.edu with the AWS account’s **AWS account ID** and **canonical user ID** which may be found as detailed here: https://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html#FindingYourAccountIdentifiers. We must receive **both** the  account ID and canonical user ID in order to grant access to the S3 bucket containing the full dataset. After access is granted the images and metadata will be available in the bucket at the following locations: 
 
