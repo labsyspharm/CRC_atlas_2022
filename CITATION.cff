@@ -1,9 +1,20 @@
-cff-version: 1.1.0
-message: "If you use this software, please cite it as below."
+cff-version: 1.2.0
+title: labsyspharm/CRC_atlas_2022
+message: 'If you use this software or data, please cite it as below.'
+type: software
 authors:
-  - family-names: Joe
-    given-names: Johnson
-    orcid: https://orcid.org/0000-0000-0000-0000
-title: labsyspharm/CRC_atlas_2022: Version 2.1
-version: 20230118_2
-date-released: 2023-01-19
+  - family-names: Jia-Ren
+    given-names: Lin
+    orcid: 'https://orcid.org/0000-0003-4702-7705'
+  - family-names: Shu
+    given-names: Wang
+    orcid: 'https://orcid.org/0000-0002-1178-1143'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7506943
+    description: Dataset Inventory DOI
+  - type: doi
+    value: 10.1016/j.cell.2022.12.028
+    description: DOI for related publication
+version: 20230119
+date-released: '2023-01-19'
