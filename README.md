@@ -189,6 +189,8 @@ https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166319
 
 The GeoMX data (count tables) could be download from here: 
 
+https://github.com/labsyspharm/CRC_atlas_2022/tree/main/GeoMX_data
+
 
 ## Funding
 This work was supported by NIH grants U54-CA225088 (PKS, SS), U2C-CA233280 (PKS, SS), U2C-CA233262 (PKS, SS), U2C-CA233291 (CNH, KSL), R01-DK103831 (CNH, KSL), NIH training grant T32-GM007748 (SC), and the Ludwig Center at Harvard (PKS, SS). All HTAN consortium members are named at humantumoratlas.org. Development of computational methods was supported by the Ludwig Cancer Research, by a Team Science Grant from the Gray Foundation, and by the David Liposarcoma Research Initiative. We thank Dana-Farber/Harvard Cancer Center for the use of the Specialized Histopathology Core, which provided histopathology services supported by P30-CA06516. 
