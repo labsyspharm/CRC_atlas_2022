@@ -26,18 +26,24 @@ Some data is available as narrated data explorations (with text and audio narrat
 
 ## Access the Full Image Dataset (CRC1)
 
-All images at full resolution, derived image data (e.g., segmentation masks), and cell count tables have been released via the NCI-sponsored repository for Human Tumor Atlas Network (HTAN; [humantumoratlas.org/explore](https://humantumoratlas.org/explore)). Because the public resource is still undergoing extensive development, an additional version of the data is temporarily available at https://labsyspharm.github.io/HTA-CRCATLAS-1/data.html.
-The full 2.3 TB dataset with all 47 images is available through Amazon Web Services S3 at the following locations: 
+All images at full resolution, derived image data (e.g., segmentation masks), and cell count tables have been released via the NCI-sponsored repository for Human Tumor Atlas Network (HTAN; [humantumoratlas.org/explore](https://humantumoratlas.org/explore)). 
 
+The full 2.3 TB dataset with all 47 CRC1 images is available through Amazon Web Services S3 at the following locations: 
 ```text
 s3://htan-tnp-sardana-hms-prerelease/phase-1/data/
 s3://htan-tnp-sardana-hms-prerelease/phase-1/metadata/
+```
+
+Samples CRC2-17 are available via the links below or for bulk download at:
+```text
+s3://lin-2021-crc-atlas/data/
 ```
 
 *Email tissue-atlas(at)hms.harvard.edu with the subject line "CRC: Data Access" if you experience issues accessing the above S3 buckets.*
 
 To browse and download the data use either a graphical file transfer application that supports S3 such as [CyberDuck](https://cyberduck.io/), or the [AWS CLI](https://aws.amazon.com/cli/) tools. A graphical tool may be more convenient but the CLI tools will likely offer higher download speeds.
 
+### CRC1 Images
 **The following table contains summary biospecimen and file metadata for all 47 sections.** 
 
 |Section|Internal_Biospecimen_ID|Method |Thickness (μm)|Size (GB)|Image Filename      |Metadata Filename        |
@@ -90,35 +96,9 @@ To browse and download the data use either a graphical file transfer application
 |105    |WD-76845-105           |H&E    |4              |9.6      |WD-76845-105.ome.tif|WD-76845-105-metadata.csv|
 |106    |WD-76845-106           |t-CyCIF|4              |69.5     |WD-76845-106.ome.tif|WD-76845-106-metadata.csv|
 
-## Access the Full Image Dataset (CRC2-17)
+## CRC2-17 Images
 
-This data in this folder represent minimally processed (Level 2) image data
-relevant to HMS HTAN Center CRC Atlas 1. Images are subjected to additional
-quality control, segmentation and quantification to generate final data. Primary
-image data files below are OME-TIFF tiled pyramid images, and spatial feature
-tables are zipped CSV files. The total data size is 3.2 TB.
-
-Data were collected using cyclic immunofluorescence as described in
-<https://dx.doi.org/10.17504/protocols.io.bjiukkew>. Each file corresponds to a
-multiplexed image mosaic for ~1.5 cm x ~1.5 cm FFPE tissue section 5 microns
-thick. Each image is assembled from a series of ~400 successive megapixel image
-tiles stitched together and flat-fielded using MCMICRO software to generate
-whole-slide images each with ~10^9 pixels. Tiles were collected for each CyCIF
-round (8 in total) and these are combined in the mosaic image to generate a
-composite with 25 or more channels.
-
-The data were collected on a RareCyte Inc. CyteFinder slide scanning
-fluorescence microscope using a 20x 0.75 NA objective.
-
-Files CRC01-001 to CRC01-106 derive from specimen CRC1, provided by the
-Cooperative Human Tissue Network (CHTN) and resected from the cecum of a 69-year
-old male; pathology revealed a poorly differentiated stage IIIB adenocarcinoma
-(pT3N1bM0) with microsatellite instability (MSI-H) and a BRAFV600E (c.1799T>A)
-mutation. The tumor had an extended front invading into the muscularis propria
-and connective tissue.
-
-Files CRC02 to CRC17 derive from additional patients from the Brigham and
-Women’s Hospital.
+Files CRC02 to CRC17 derive from additional patients from the Brigham and Women’s Hospital.
 
 * [CRC02](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC02.ome.tif) (93 GB)
 * [CRC03](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC03.ome.tif) (72 GB)
@@ -137,7 +117,7 @@ Women’s Hospital.
 * [CRC16](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC16.ome.tif) (81 GB)
 * [CRC17](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC17.ome.tif) (79 GB)
 
-## Access Spatial feature tables
+### Access Spatial feature tables (CRC1-17)
 
 * [CRC01-002](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-002-features.zip) (46 MB)
 * [CRC01-007](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-007-features.zip) (45 MB)
@@ -181,7 +161,7 @@ Women’s Hospital.
 * [CRC16](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC16-features.zip) (22 MB)
 * [CRC17](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC17-features.zip) (79 MB)
 
-## Access single-cell sequencing data & GeoMX count tables
+### Single-cell sequencing data & GeoMX count tables
 
 The single-cell sequncing data of this study could be found here:
 
