@@ -183,8 +183,11 @@ Women’s Hospital.
 
 ## Access single-cell sequencing data & GeoMX count tables
 
+The single-cell sequncing data of this study could be found here:
 
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166319
 
+The GeoMX data (count tables) could be download from here: 
 
 
 ## Funding
