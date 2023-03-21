@@ -100,24 +100,92 @@ To browse and download the data use either a graphical file transfer application
 
 Files CRC02 to CRC17 derive from additional patients from the Brigham and Women’s Hospital.
 
-* [CRC02](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC02.ome.tif) (93 GB)
-* [CRC03](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC03.ome.tif) (72 GB)
-* [CRC04](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC04.ome.tif) (70 GB)
-* [CRC05](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC05.ome.tif) (54 GB)
-* [CRC06](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC06.ome.tif) (74 GB)
-* [CRC07](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC07.ome.tif) (61 GB)
-* [CRC08](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC08.ome.tif) (86 GB)
-* [CRC09](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC09.ome.tif) (68 GB)
-* [CRC10](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC10.ome.tif) (62 GB)
-* [CRC11](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC11.ome.tif) (59 GB)
-* [CRC12](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC12.ome.tif) (76 GB)
-* [CRC13](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC13.ome.tif) (49 GB)
-* [CRC14](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC14.ome.tif) (75 GB)
-* [CRC15](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC15.ome.tif) (75 GB)
-* [CRC16](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC16.ome.tif) (81 GB)
-* [CRC17](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC17.ome.tif) (79 GB)
+*H&E*
 
-### Access Spatial feature tables (CRC1-17)
+| Patient | Data filename         | Metadata filename | File size (GB) |
+| :------ | :-------------------- | :---------------- | :------------- |
+| CRC02   | data/CRC02-HE.ome.tif | -                 | 17.2           |
+| CRC03   | data/CRC03-HE.ome.tif | -                 | 12.9           |
+| CRC04   | data/CRC04-HE.ome.tif | -                 | 15.5           |
+| CRC05   | data/CRC05-HE.ome.tif | -                 | 12.8           |
+| CRC06   | data/CRC06-HE.ome.tif | -                 | 16.2           |
+| CRC07   | data/CRC07-HE.ome.tif | -                 | 10.9           |
+| CRC08   | data/CRC08-HE.ome.tif | -                 | 18.0           |
+| CRC09   | data/CRC09-HE.ome.tif | -                 | 12.6           |
+| CRC10   | data/CRC10-HE.ome.tif | -                 | 19.5           |
+| CRC11   | data/CRC11-HE.ome.tif | -                 | 13.6           |
+| CRC12   | data/CRC12-HE.ome.tif | -                 | 15.0           |
+| CRC13   | data/CRC13-HE.ome.tif | -                 | 7.5            |
+| CRC14   | data/CRC14-HE.ome.tif | -                 | 13.2           |
+| CRC15   | data/CRC15-HE.ome.tif | -                 | 12.6           |
+| CRC16   | data/CRC16-HE.ome.tif | -                 | 15.4           |
+| CRC17   | data/CRC17-HE.ome.tif | -                 | 16.5           |
+
+*Main CyCIF panel*
+
+| Patient | Data filename      | Metadata filename                            | File size (GB) |
+| :------ | :----------------- | :------------------------------------------- | :------------- |
+| CRC02   | data/CRC02.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 93.4           |
+| CRC03   | data/CRC03.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 72.6           |
+| CRC04   | data/CRC04.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 70.6           |
+| CRC05   | data/CRC05.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 54.7           |
+| CRC06   | data/CRC06.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 74.5           |
+| CRC07   | data/CRC07.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 61.2           |
+| CRC08   | data/CRC08.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 86.2           |
+| CRC09   | data/CRC09.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 68.1           |
+| CRC10   | data/CRC10.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 62.5           |
+| CRC11   | data/CRC11.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 59.6           |
+| CRC12   | data/CRC12.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 76.7           |
+| CRC13   | data/CRC13.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 49.6           |
+| CRC14   | data/CRC14.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 75.5           |
+| CRC15   | data/CRC15.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 75.1           |
+| CRC16   | data/CRC16.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 81.7           |
+| CRC17   | data/CRC17.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 79.6           |
+
+*Immune-focused CyCIF panel*
+
+| Patient | Data filename               | Metadata filename                  | File size (GB) |
+| :------ | :-------------------------- | :--------------------------------- | :------------- |
+| CRC02   | data/73-8/TNPCRC_01.ome.tif | metadata/73-8-channel-metadata.csv | 111.2          |
+| CRC03   | data/73-8/TNPCRC_02.ome.tif | metadata/73-8-channel-metadata.csv | 70.1           |
+| CRC04   | data/73-8/TNPCRC_03.ome.tif | metadata/73-8-channel-metadata.csv | 100.3          |
+| CRC05   | data/73-8/TNPCRC_04.ome.tif | metadata/73-8-channel-metadata.csv | 81.9           |
+| CRC06   | data/73-8/TNPCRC_05.ome.tif | metadata/73-8-channel-metadata.csv | 118.3          |
+| CRC07   | data/73-8/TNPCRC_06.ome.tif | metadata/73-8-channel-metadata.csv | 65.8           |
+| CRC08   | data/73-8/TNPCRC_08.ome.tif | metadata/73-8-channel-metadata.csv | 75.1           |
+| CRC09   | data/73-8/TNPCRC_09.ome.tif | metadata/73-8-channel-metadata.csv | 81.0           |
+| CRC10   | data/73-8/TNPCRC_10.ome.tif | metadata/73-8-channel-metadata.csv | 103.0          |
+| CRC11   | data/73-8/TNPCRC_11.ome.tif | metadata/73-8-channel-metadata.csv | 84.3           |
+| CRC12   | data/73-8/TNPCRC_12.ome.tif | metadata/73-8-channel-metadata.csv | 52.4           |
+| CRC13   | data/73-8/TNPCRC_13.ome.tif | metadata/73-8-channel-metadata.csv | 78.5           |
+| CRC14   | data/73-8/TNPCRC_14.ome.tif | metadata/73-8-channel-metadata.csv | 86.5           |
+| CRC15   | data/73-8/TNPCRC_15.ome.tif | metadata/73-8-channel-metadata.csv | 86.0           |
+| CRC16   | data/73-8/TNPCRC_16.ome.tif | metadata/73-8-channel-metadata.csv | 105.8          |
+| CRC17   | data/73-8/TNPCRC_17.ome.tif | metadata/73-8-channel-metadata.csv | 137.5          |
+
+*Tumor-focused CyCIF panel*
+
+| Patient | Data filename               | Metadata filename                  | File size (GB) |
+| :------ | :-------------------------- | :--------------------------------- | :------------- |
+| CRC02   | data/73-9/TNPCRC_01.ome.tif | metadata/73-9-channel-metadata.csv | 100.1          |
+| CRC03   | data/73-9/TNPCRC_02.ome.tif | metadata/73-9-channel-metadata.csv | 67.4           |
+| CRC04   | data/73-9/TNPCRC_03.ome.tif | metadata/73-9-channel-metadata.csv | 104.8          |
+| CRC05   | data/73-9/TNPCRC_04.ome.tif | metadata/73-9-channel-metadata.csv | 69.4           |
+| CRC06   | data/73-9/TNPCRC_05.ome.tif | metadata/73-9-channel-metadata.csv | 125.5          |
+| CRC07   | data/73-9/TNPCRC_06.ome.tif | metadata/73-9-channel-metadata.csv | 98.5           |
+| CRC08   | data/73-9/TNPCRC_08.ome.tif | metadata/73-9-channel-metadata.csv | 90.6           |
+| CRC09   | data/73-9/TNPCRC_09.ome.tif | metadata/73-9-channel-metadata.csv | 87.8           |
+| CRC10   | data/73-9/TNPCRC_10.ome.tif | metadata/73-9-channel-metadata.csv | 111.6          |
+| CRC11   | data/73-9/TNPCRC_11.ome.tif | metadata/73-9-channel-metadata.csv | 104.8          |
+| CRC12   | data/73-9/TNPCRC_12.ome.tif | metadata/73-9-channel-metadata.csv | 59.3           |
+| CRC13   | data/73-9/TNPCRC_13.ome.tif | metadata/73-9-channel-metadata.csv | 97.3           |
+| CRC14   | data/73-9/TNPCRC_14.ome.tif | metadata/73-9-channel-metadata.csv | 98.5           |
+| CRC15   | data/73-9/TNPCRC_15.ome.tif | metadata/73-9-channel-metadata.csv | 104.0          |
+| CRC16   | data/73-9/TNPCRC_16.ome.tif | metadata/73-9-channel-metadata.csv | 120.4          |
+| CRC17   | data/73-9/TNPCRC_17.ome.tif | metadata/73-9-channel-metadata.csv | 147.4          |
+
+
+### Access Spatial feature tables (main CyCIF panel; CRC1-17)
 
 * [CRC01-002](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-002-features.zip) (46 MB)
 * [CRC01-007](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-007-features.zip) (45 MB)
