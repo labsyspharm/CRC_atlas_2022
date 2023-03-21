@@ -41,10 +41,10 @@ The list of S3 Objects in the bucket can be accessed at https://lin-2021-crc-atl
 To browse and download the data use either a graphical file transfer application that supports S3 such as [CyberDuck](https://cyberduck.io/), or the [AWS CLI](https://aws.amazon.com/cli/) tools. A graphical tool may be more convenient but the CLI tools will likely offer higher download speeds.
 
 **See the tables below for an inventory of the dataset, which includes:**  
->  [CRC1 images and image metadata](https://github.com/labsyspharm/CRC_atlas_2022/edit/main/README.md#crc1-images)  
->  [CRC2-17 images and image metadata](https://github.com/labsyspharm/CRC_atlas_2022/edit/main/README.md#crc2-17-images)  
->  [Spatial features tables](https://github.com/labsyspharm/CRC_atlas_2022/edit/main/README.md#access-spatial-feature-tables-main-cycif-panel-crc1-17)  
->  [Single-cell sequencing data and GeoMX count tables](https://github.com/labsyspharm/CRC_atlas_2022/edit/main/README.md#single-cell-sequencing-data--geomx-count-tables)  
+>  [CRC1 images and image metadata](https://github.com/labsyspharm/CRC_atlas_2022/blob/main/README.md#crc1-images)  
+>  [CRC2-17 images and image metadata](https://github.com/labsyspharm/CRC_atlas_2022/blob/main/README.md#crc2-17-images)  
+>  [Spatial features tables](https://github.com/labsyspharm/CRC_atlas_2022/blob/main/README.md#access-spatial-feature-tables-main-cycif-panel-crc1-17)  
+>  [Single-cell sequencing data and GeoMX count tables](https://github.com/labsyspharm/CRC_atlas_2022/blob/main/README.md#single-cell-sequencing-data--geomx-count-tables)  
   
 
 ---- 
