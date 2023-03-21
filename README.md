@@ -96,7 +96,7 @@ To browse and download the data use either a graphical file transfer application
 |105    |WD-76845-105           |H&E    |4              |9.6      |WD-76845-105.ome.tif|WD-76845-105-metadata.csv|
 |106    |WD-76845-106           |t-CyCIF|4              |69.5     |WD-76845-106.ome.tif|WD-76845-106-metadata.csv|
 
-## CRC2-17 Images
+### CRC2-17 Images
 
 Files CRC02 to CRC17 derive from additional patients from the Brigham and Womenâ€™s Hospital.
 
@@ -161,7 +161,7 @@ Files CRC02 to CRC17 derive from additional patients from the Brigham and Womenâ
 * [CRC16](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC16-features.zip) (22 MB)
 * [CRC17](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC17-features.zip) (79 MB)
 
-### Single-cell sequencing data & GeoMX count tables
+## Single-cell sequencing data & GeoMX count tables
 
 The single-cell sequncing data of this study could be found here:
 
