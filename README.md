@@ -28,16 +28,12 @@ Some data is available as narrated data explorations (with text and audio narrat
 
 All images at full resolution, derived image data (e.g., segmentation masks), and cell count tables have been released via the NCI-sponsored repository for Human Tumor Atlas Network (HTAN; [humantumoratlas.org/explore](https://humantumoratlas.org/explore)). 
 
-The full 2.3 TB dataset with all 47 CRC1 images is available through Amazon Web Services S3 at the following locations: 
-```text
-s3://htan-tnp-sardana-hms-prerelease/phase-1/data/
-s3://htan-tnp-sardana-hms-prerelease/phase-1/metadata/
-```
-
-Samples CRC2-17 are available via the links below or for bulk download at:
+The dataset, consist of 47 CRC1 images (2.1 TB) and CRC2-17 images (4.4 TB), is available through Amazon Web Services S3 at the following locations: 
 ```text
 s3://lin-2021-crc-atlas/data/
 ```
+
+The list of S3 Objects in the bucket can be accessed at https://lin-2021-crc-atlas.s3.amazonaws.com/ 
 
 *Email tissue-atlas(at)hms.harvard.edu with the subject line "CRC: Data Access" if you experience issues accessing the above S3 buckets.*
 
