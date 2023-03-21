@@ -18,13 +18,14 @@ Jia-Ren Lin*, Shu Wang*, Shannon Coy*, Yu-An Chen, Clarence Yapp, Madison Tyler,
 Advanced solid cancers are complex assemblies of tumor, immune, and stromal cells characterized by high intratumoral variation. We use highly multiplexed tissue imaging, 3D reconstruction, spatial statistics, and machine learning to identify cell types and states underlying morphological features of known diagnostic and prognostic significance in colorectal cancer. Quantitation of these features in high-plex marker space reveals recurrent transitions from one tumor morphology to the next, some of which are coincident with long-range gradients in the expression of oncogenes and epigenetic regulators. At the tumor invasive margin, where tumor, normal, and immune cells compete, T-cell suppression involves multiple cell types and 3D imaging shows that seemingly localized 2D features such as tertiary lymphoid structures are commonly interconnected and have graded molecular properties. Thus, while cancer genetics emphasizes the importance of discrete changes in tumor state, whole-specimen imaging reveals large-scale morphological and molecular gradients analogous to those in developing tissues.
 <br>
 
-## View image data online
+---
+## VIEW IMAGE DATA ONLINE
 Some data is available as narrated data explorations (with text and audio narration) for anonymous on-line browsing using MINERVA software (Rashid et al., 2022), which allows users to pan and zoom through the images without requiring any software installation. 
 
 **To view the Minerva stories, please visit [tissue-atlas.org/atlas-datasets/lin-wang-coy-2021/#data-explorations](https://www.tissue-atlas.org/atlas-datasets/lin-wang-coy-2021/#data-explorations).**  
 
-
-## Access the Full Image Dataset (CRC1)
+---
+## ACCESS THE DATA
 
 All images at full resolution, derived image data (e.g., segmentation masks), and cell count tables have been released via the NCI-sponsored repository for Human Tumor Atlas Network (HTAN; [humantumoratlas.org/explore](https://humantumoratlas.org/explore)). 
 
@@ -38,6 +39,15 @@ The list of S3 Objects in the bucket can be accessed at https://lin-2021-crc-atl
 *Email tissue-atlas(at)hms.harvard.edu with the subject line "CRC: Data Access" if you experience issues accessing the above S3 buckets.*
 
 To browse and download the data use either a graphical file transfer application that supports S3 such asâ€¯[CyberDuck](https://cyberduck.io/), or theâ€¯[AWS CLI](https://aws.amazon.com/cli/) tools. A graphical tool may be more convenient but the CLI tools will likely offer higher download speeds.
+
+**See the tables below for an inventory of the dataset, which includes:**  
+>  [CRC1 images and image metadata](https://github.com/labsyspharm/CRC_atlas_2022/edit/main/README.md#crc1-images)  
+>  [CRC2-17 images and image metadata](https://github.com/labsyspharm/CRC_atlas_2022/edit/main/README.md#crc2-17-images)  
+>  [Spatial features tables](https://github.com/labsyspharm/CRC_atlas_2022/edit/main/README.md#access-spatial-feature-tables-main-cycif-panel-crc1-17)  
+>  [Single-cell sequencing data and GeoMX count tables](https://github.com/labsyspharm/CRC_atlas_2022/edit/main/README.md#single-cell-sequencing-data--geomx-count-tables)  
+  
+
+---- 
 
 ### CRC1 Images
 **The following table contains summary biospecimen and file metadata for all 47 sections.** 
@@ -92,11 +102,13 @@ To browse and download the data use either a graphical file transfer application
 |105    |WD-76845-105           |H&E    |4              |9.6      |WD-76845-105.ome.tif|WD-76845-105-metadata.csv|
 |106    |WD-76845-106           |t-CyCIF|4              |69.5     |WD-76845-106.ome.tif|WD-76845-106-metadata.csv|
 
+
+-----
 ### CRC2-17 Images
 
 Files CRC02 to CRC17 derive from additional patients from the Brigham and Womenâ€™s Hospital.
 
-*H&E*
+**H&E**
 
 | Patient | Data filename         | Metadata filename | File size (GB) |
 | :------ | :-------------------- | :---------------- | :------------- |
@@ -117,7 +129,8 @@ Files CRC02 to CRC17 derive from additional patients from the Brigham and Womenâ
 | CRC16   | data/CRC16-HE.ome.tif | -                 | 15.4           |
 | CRC17   | data/CRC17-HE.ome.tif | -                 | 16.5           |
 
-*Main CyCIF panel*
+  
+**Main CyCIF panel**
 
 | Patient | Data filename      | Metadata filename                            | File size (GB) |
 | :------ | :----------------- | :------------------------------------------- | :------------- |
@@ -138,7 +151,8 @@ Files CRC02 to CRC17 derive from additional patients from the Brigham and Womenâ
 | CRC16   | data/CRC16.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 81.7           |
 | CRC17   | data/CRC17.ome.tif | metadata/CRC202105 HTAN channel metadata.csv | 79.6           |
 
-*Immune-focused CyCIF panel*
+  
+**Immune-focused CyCIF panel**
 
 | Patient | Data filename               | Metadata filename                  | File size (GB) |
 | :------ | :-------------------------- | :--------------------------------- | :------------- |
@@ -159,7 +173,8 @@ Files CRC02 to CRC17 derive from additional patients from the Brigham and Womenâ
 | CRC16   | data/73-8/TNPCRC_16.ome.tif | metadata/73-8-channel-metadata.csv | 105.8          |
 | CRC17   | data/73-8/TNPCRC_17.ome.tif | metadata/73-8-channel-metadata.csv | 137.5          |
 
-*Tumor-focused CyCIF panel*
+  
+**Tumor-focused CyCIF panel**
 
 | Patient | Data filename               | Metadata filename                  | File size (GB) |
 | :------ | :-------------------------- | :--------------------------------- | :------------- |
@@ -180,6 +195,7 @@ Files CRC02 to CRC17 derive from additional patients from the Brigham and Womenâ
 | CRC16   | data/73-9/TNPCRC_16.ome.tif | metadata/73-9-channel-metadata.csv | 120.4          |
 | CRC17   | data/73-9/TNPCRC_17.ome.tif | metadata/73-9-channel-metadata.csv | 147.4          |
 
+----
 
 ### Access Spatial feature tables (main CyCIF panel; CRC1-17)
 
@@ -225,7 +241,9 @@ Files CRC02 to CRC17 derive from additional patients from the Brigham and Womenâ
 * [CRC16](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC16-features.zip) (22 MB)
 * [CRC17](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC17-features.zip) (79 MB)
 
-## Single-cell sequencing data & GeoMX count tables
+---
+
+### Single-cell sequencing data & GeoMX count tables
 
 The single-cell sequncing data of this study could be found here:
 
@@ -235,7 +253,7 @@ The GeoMX data (count tables) could be download from here:
 
 https://github.com/labsyspharm/CRC_atlas_2022/tree/main/GeoMX_data
 
-
-## Funding
+---
+## FUNDING
 This work was supported by NIH grants U54-CA225088 (PKS, SS), U2C-CA233280 (PKS, SS), U2C-CA233262 (PKS, SS), U2C-CA233291 (CNH, KSL), R01-DK103831 (CNH, KSL), NIH training grant T32-GM007748 (SC), and the Ludwig Center at Harvard (PKS, SS). All HTAN consortium members are named at humantumoratlas.org. Development of computational methods was supported by the Ludwig Cancer Research, by a Team Science Grant from the Gray Foundation, and by the David Liposarcoma Research Initiative. We thank Dana-Farber/Harvard Cancer Center for the use of the Specialized Histopathology Core, which provided histopathology services supported by P30-CA06516. 
 <br>
