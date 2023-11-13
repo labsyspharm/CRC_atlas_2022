@@ -243,9 +243,9 @@ Files CRC02 to CRC17 derive from additional patients from the Brigham and Womenâ
 ---
 
 ### Access Spatial feature tables (CRC01 additional panel)
-* [CRC01-45]https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-045-features.zip
-* [CRC01-46]https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-046-features.zip
-* [CRC01-47]https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-047-features.zip
+* [CRC01-45](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-045-features.zip)
+* [CRC01-46](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-046-features.zip)
+* [CRC01-47](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-047-features.zip)
 ---
 
 ### Single-cell sequencing data & GeoMX count tables
