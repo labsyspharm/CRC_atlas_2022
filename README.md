@@ -29,16 +29,15 @@ Some data is available as narrated data explorations (with text and audio narrat
 
 All images at full resolution, derived image data (e.g., segmentation masks), and cell count tables have been released via the NCI-sponsored repository for Human Tumor Atlas Network (HTAN; [humantumoratlas.org/explore](https://humantumoratlas.org/explore)). 
 
-The dataset, consist of 47 CRC1 images (2.1 TB) and CRC2-17 images (4.4 TB), is available through Amazon Web Services S3 at the following locations: 
+The dataset, consist of 47 CRC1 images (2.1 TB) and CRC2-17 images (4.4 TB), is available through Amazon Web Services S3 at the following location: 
 ```text
 s3://lin-2021-crc-atlas/data/
 ```
+The list of S3 Objects in the bucket can be accessed at [https://lin-2021-crc-atlas.s3.amazonaws.com/](https://lin-2021-crc-atlas.s3.amazonaws.com/)
 
-The list of S3 Objects in the bucket can be accessed at https://lin-2021-crc-atlas.s3.amazonaws.com/ 
+Visit the following Zenodo page for instructions on how to access the primary image data associated with this publication on AWS: [10.5281/zenodo.10223573](10.5281/zenodo.10223573)
 
-*Email tissue-atlas(at)hms.harvard.edu with the subject line "CRC: Data Access" if you experience issues accessing the above S3 buckets.*
-
-To browse and download the data use either a graphical file transfer application that supports S3 such as [CyberDuck](https://cyberduck.io/), or the [AWS CLI](https://aws.amazon.com/cli/) tools. A graphical tool may be more convenient but the CLI tools will likely offer higher download speeds.
+*Contact: Email tissue-atlas(at)hms.harvard.edu with the subject line "CRC: Data Access" if you experience issues accessing the data or have questions.*
 
 **See the tables below for an inventory of the dataset, which includes:**  
 >  [CRC1 images and image metadata](https://github.com/labsyspharm/CRC_atlas_2022/blob/main/README.md#crc1-images)  
