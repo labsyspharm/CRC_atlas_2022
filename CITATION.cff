@@ -2,19 +2,36 @@ cff-version: 1.2.0
 title: labsyspharm/CRC_atlas_2022
 message: 'If you use this software or data, please cite it as below.'
 type: software
+date-released: '2023-01-19'
 authors:
-  - family-names: Jia-Ren
-    given-names: Lin
-    orcid: 'https://orcid.org/0000-0003-4702-7705'
-  - family-names: Shu
-    given-names: Wang
-    orcid: 'https://orcid.org/0000-0002-1178-1143'
+- family-names: Jia-Ren
+  given-names: Lin
+  orcid: 0000-0003-4702-7705
+- family-names: Shu
+  given-names: Wang
+  orcid: 0000-0002-1178-1143
+- family-names: Shannon Coy
+  orcid: 0000-0003-0033-9031
+- family-names: Yu-An Chen
+  orcid: 0000-0001-7228-4696
+- family-names: Clarence Yapp
+  orcid: 0000-0003-1144-5710
+- family-names: Madison Tyler
+  orcid: 0000-0001-9474-4956
+- family-names: Maulik K. Nariya
+- family-names: Cody N. Heiser
+  orcid: 0000-0002-1299-1628
+- family-names: Ken S. Lau
+  orcid: 0000-0001-8438-0319
+- family-names: Sandro Santagata
+  orcid: 0000-0002-7528-9668
+- family-names: Peter K. Sorger
+  orcid: 0000-0002-3364-1838
+license: MIT
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.7506943
+    value: 10.5281/zenodo.7506942
     description: Dataset Inventory DOI
   - type: doi
     value: 10.1016/j.cell.2022.12.028
     description: DOI for related publication
-version: 20230119
-date-released: '2023-01-19'
