@@ -29,13 +29,7 @@ Some data is available as narrated data explorations (with text and audio narrat
 
 All images at full resolution, derived image data (e.g., segmentation masks), and cell count tables have been released via the NCI-sponsored repository for Human Tumor Atlas Network (HTAN; [humantumoratlas.org/explore](https://humantumoratlas.org/explore)). 
 
-The dataset, consist of 47 CRC1 images (2.1 TB) and CRC2-17 images (4.4 TB), is available through Amazon Web Services S3 at the following location: 
-```text
-s3://lin-2021-crc-atlas/data/
-```
-The list of S3 Objects in the bucket can be accessed at [https://lin-2021-crc-atlas.s3.amazonaws.com/](https://lin-2021-crc-atlas.s3.amazonaws.com/)
-
-Visit the following Zenodo page for instructions on how to access the primary image data associated with this publication on AWS: [10.5281/zenodo.10223573](10.5281/zenodo.10223573)
+The dataset, consist of 47 CRC1 images (2.1 TB) and CRC2-17 images (4.4 TB), is available through the [NCI Human Tumor Atlas Network data portal](https://humantumoratlas.org/explore/phase1) (filter for Atlas Name `TNP SARDANA`).
 
 *Contact: Email tissue-atlas(at)hms.harvard.edu with the subject line "CRC: Data Access" if you experience issues accessing the data or have questions.*
 
@@ -196,64 +190,13 @@ Files CRC02 to CRC17 derive from additional patients from the Brigham and Womenâ
 
 ----
 
-### Access Spatial feature tables (main CyCIF panel; CRC1-17)
-
-* [CRC01-002](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-002-features.zip) (46 MB)
-* [CRC01-007](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-007-features.zip) (45 MB)
-* [CRC01-014](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-014-features.zip) (41 MB)
-* [CRC01-020](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-020-features.zip) (38 MB)
-* [CRC01-025](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-025-features.zip) (39 MB)
-* [CRC01-029](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-029-features.zip) (41 MB)
-* [CRC01-034](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-034-features.zip) (54 MB)
-* [CRC01-039](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-039-features.zip) (45 MB)
-* [CRC01-044](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-044-features.zip) (36 MB)
-* [CRC01-049](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-049-features.zip) (52 MB)
-* [CRC01-050](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-050-features.zip) (49 MB)
-* [CRC01-051](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-051-features.zip) (60 MB)
-* [CRC01-052](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-052-features.zip) (55 MB)
-* [CRC01-054](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-054-features.zip) (49 MB)
-* [CRC01-059](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-059-features.zip) (46 MB)
-* [CRC01-064](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-064-features.zip) (57 MB)
-* [CRC01-069](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-069-features.zip) (48 MB)
-* [CRC01-074](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-074-features.zip) (56 MB)
-* [CRC01-078](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-078-features.zip) (54 MB)
-* [CRC01-084](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-084-features.zip) (56 MB)
-* [CRC01-086](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-086-features.zip) (55 MB)
-* [CRC01-091](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-091-features.zip) (49 MB)
-* [CRC01-097](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-097-features.zip) (55 MB)
-* [CRC01-102](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-102-features.zip) (55 MB)
-* [CRC01-106](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-106-features.zip) (53 MB)
-* [CRC02](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC02-features.zip) (58 MB)
-* [CRC03](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC03-features.zip) (50 MB)
-* [CRC04](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC04-features.zip) (75 MB)
-* [CRC05](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC05-features.zip) (57 MB)
-* [CRC06](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC06-features.zip) (39 MB)
-* [CRC07](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC07-features.zip) (51 MB)
-* [CRC08](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC08-features.zip) (67 MB)
-* [CRC09](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC09-features.zip) (22 MB)
-* [CRC10](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC10-features.zip) (41 MB)
-* [CRC11](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC11-features.zip) (34 MB)
-* [CRC12](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC12-features.zip) (69 MB)
-* [CRC13](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC13-features.zip) (24 MB)
-* [CRC14](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC14-features.zip) (32 MB)
-* [CRC15](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC15-features.zip) (56 MB)
-* [CRC16](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC16-features.zip) (22 MB)
-* [CRC17](https://lin-2021-crc-atlas.s3.amazonaws.com/data/CRC17-features.zip) (79 MB)
----
-
-### Access Spatial feature tables (CRC01 additional panel)
-* [CRC01-45](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-045-features.zip)
-* [CRC01-46](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-046-features.zip)
-* [CRC01-47](https://lin-2021-crc-atlas.s3.amazonaws.com/data/WD-76845-047-features.zip)
----
-
 ### Single-cell sequencing data & GeoMX count tables
 
-The single-cell sequncing data of this study could be found here:
+The single-cell sequencing data of this study can be found on GEO:
 
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166319
 
-The GeoMX data (count tables) could be download from here: 
+The GeoMX data (count tables) can be download from here: 
 
 https://github.com/labsyspharm/CRC_atlas_2022/tree/main/GeoMX_data
 
